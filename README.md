@@ -28,6 +28,24 @@ Other services may work as well, but I have not fully tested them:
 
 </details>
 
+# Commandline 
+
+(base) D:\My Drive\Classroom\My_ML-Lectures\_src> 
+
+git clone --depth 1 https://github.com/ageron/handson-ml3.git
+
+cd handson-ml3
+
+conda env create -f environment.yml
+
+conda activate homl3
+
+python -m ipykernel install --user --name=python3
+
+pip install RISE
+
+
+
 ### Just want to quickly look at some notebooks, without executing any code?
 
 * <a href="https://nbviewer.jupyter.org/github/ageron/handson-ml3/blob/main/index.ipynb"><img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg" alt="Render nbviewer" /></a>
